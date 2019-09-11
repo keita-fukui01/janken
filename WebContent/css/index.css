@@ -1,0 +1,76 @@
+body {
+	background: black;
+    background-size:cover;
+}
+
+#title003{
+  background: url(../images/cat_20.jpg);
+  background-size:cover;
+  width:1330px;
+  height:1300px;
+  }
+
+a:hover img.overwhite{
+	cursor:pointer;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha(opacity=60)";
+	-moz-opacity:0.6;
+	-khtml-opacity:0.6;
+	opacity:0.6;
+	zoom:1.5;
+}
+
+
+.title{
+   margin: 0 auto;
+   text-align: center;
+}
+.title001{
+  display     : inline-block;
+  font-size   : 300%;
+  font-weight : bold;
+  color       : #ff0000;
+  text-shadow:  5px  5px 20px #0000ff,
+               -5px  5px 20px #0000ff,
+                5px -5px 20px #0000ff,
+               -5px -5px 20px #0000ff;
+}
+
+.title01 {
+  animation: blinkAnime 1s infinite alternate;
+    font-size:20px;
+	width:50%;
+	margin: 0 auto;
+	text-align: left;
+}
+@keyframes blinkAnime{
+   0% { color: blue }
+ 100% { color: #66ff66 }
+}
+
+div#title02 {
+	max-width:90%;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+
+div#title03 {
+  animation: blinkAnime 1s infinite alternate;
+    font-size:20px;
+    width:25%;
+	margin: 0% 0%;
+}
+@keyframes blinkAnime{
+   0% { color: blue }
+ 100% { color: #66ff66 }
+}
+
+
+#btn_submit01 {
+    color:#000000;
+    width:70px;
+    height:30px;
+    font-size:20px;
+    margin: 0 90px;
+}

@@ -1,0 +1,69 @@
+body {
+	background: url(../images/cat_15.jpg);
+    background-size:cover;
+}
+
+
+.title{
+   margin: 0 auto;
+   text-align: center;
+}
+.title001{
+  display     : inline-block;
+  font-size   : 300%;
+  font-weight : bold;
+  color       : #ff0000;
+  text-shadow:  5px  5px 20px #0000ff,
+               -5px  5px 20px #0000ff,
+                5px -5px 20px #0000ff,
+               -5px -5px 20px #0000ff;
+}
+
+
+.title00 {
+  font-size: 250%;
+  margin: 0 auto;
+  text-align: center;
+  animation: blinkAnimeS1 2s infinite alternate;
+}
+@keyframes blinkAnimeS1{
+ 0%  { color : yellow }  /* 33%Ç≤Ç∆Ç…êFÇì¸ÇÍë÷Ç¶ */
+ 33% { color : blue   }
+ 66% { color : green  }
+ 100%{ color : red    }
+}
+
+
+.title01 {
+  font-size: 250%;
+  margin: 0 auto;
+  text-align: center;
+  animation: blinkAnimeS1 2s infinite alternate;
+}
+@keyframes blinkAnimeS1{
+ 0%  { color : yellow }  /* 33%Ç≤Ç∆Ç…êFÇì¸ÇÍë÷Ç¶ */
+ 33% { color : blue   }
+ 66% { color : green  }
+ 100%{ color : red    }
+}
+
+
+.title02 {
+  font-size: 250%;
+  margin: 0 auto;
+  text-align: center;
+  animation: blinkAnimeS1 2s infinite alternate;
+}
+@keyframes blinkAnimeS1{
+ 0%  { color : yellow }  /* 33%Ç≤Ç∆Ç…êFÇì¸ÇÍë÷Ç¶ */
+ 33% { color : blue   }
+ 66% { color : green  }
+ 100%{ color : red    }
+}
+
+
+div#title02 {
+	max-width:90%;
+	margin-left:  auto;
+	margin-right: auto;
+}
